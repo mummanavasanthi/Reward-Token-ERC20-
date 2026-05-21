@@ -115,9 +115,22 @@ Inside Remix IDE:
 InternRewardToken.sol
 ```
 
----
-
 # Step 6 — Write Smart Contract Code
+
+After creating the Solidity file, the ERC20 smart contract code was added into:
+
+```solidity
+InternRewardToken.sol
+```
+The smart contract contains:
+
+- Token Name
+- Token Symbol
+- Total Supply
+- Transfer functionality
+- Balance mapping
+
+This file was used for compiling and deploying the ERC20 token on SecureChain Mainnet.
 
 # Step 7 — Compile the Smart Contract
 
@@ -179,6 +192,7 @@ Outputs:
 - Intern Reward Token
 - IRT
 - 1000 Tokens
+<img width="1437" height="769" alt="Screenshot 2026-05-21 125404" src="https://github.com/user-attachments/assets/3ad4f064-ce37-454a-b8b2-448658ac32ce" />
 
 ---
 
@@ -191,28 +205,11 @@ Steps followed:
 3. Paste deployed contract address
 4. Token details auto-filled
 5. Click Import
+<img width="456" height="861" alt="Screenshot 2026-05-21 125227" src="https://github.com/user-attachments/assets/359eff28-3b7d-442f-b42d-6745caea0fff" />
 
 After importing:
 - IRT token became visible in MetaMask wallet
-
----
-
-# Contract Deployment Screenshot
-
-![Deployment Screenshot](screenshots/deployment.png)
-
----
-
-# Remix IDE Screenshot
-
-![Remix Screenshot](screenshots/remix.png)
-
----
-
-# MetaMask Token Screenshot
-
-![MetaMask Screenshot](screenshots/metamask.png)
-
+<img width="457" height="631" alt="Screenshot 2026-05-21 125310" src="https://github.com/user-attachments/assets/c3ff1223-3c4d-46f3-b28e-862b6462df54" />
 ---
 
 # How to Run This Project
@@ -227,4 +224,3 @@ After importing:
 8. Connect MetaMask
 9. Deploy smart contract
 10. Import token into MetaMask
- Token Smart Contract Project
